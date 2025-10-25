@@ -18,7 +18,7 @@ footer_text: >
   Content creeated with Claude
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website, samples, Bunni, Rochelle, Fisher, technical-writer, hire # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: assets/img/favicon.png
 
 url: https://BRochelleFisher.github.io
 baseurl: ""
