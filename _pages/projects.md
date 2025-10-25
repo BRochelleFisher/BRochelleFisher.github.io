@@ -1,8 +1,8 @@
 ---
 layout: page
-title: projects
+title: Creating a Controlled Language 
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Creating a proprietary controlled language, focusing on cybersecurity
 nav: true
 nav_order: 3
 display_categories: [work, fun]
