@@ -9,6 +9,7 @@ description: This is a description of the page. You can modify it in '_pages/cv.
 toc:
   sidebar: left
 ---
+
 <!-- ![2023 Rochelle Fisher](assets/img/prof_pic.jpg) -->
 
 rochelle.fisher@gmail.com - 763 402 3823 - LinkedIn: www.linkedin.com/in/rochellef4techwriter
