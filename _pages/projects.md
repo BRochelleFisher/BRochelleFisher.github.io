@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Creating a Controlled Language 
+title: Creating a Controlled Language
 permalink: /projects/
 description: Creating a proprietary controlled language, focusing on cybersecurity
 nav: true

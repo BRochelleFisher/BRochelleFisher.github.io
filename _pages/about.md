@@ -8,10 +8,10 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-[//]: #   more_info: >
-[//]: #     <p>555 your office number</p>
-[//]: #     <p>123 your address street</p>
-[//]: #     <p>Your City, State 12345</p>
+[//]:#   more_info: >
+[//]:#     <p>555 your office number</p>
+[//]:#     <p>123 your address street</p>
+[//]:#     <p>Your City, State 12345</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
@@ -27,7 +27,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-# Rochelle Fisher 
+# Rochelle Fisher
+
 ![2023 Rochelle Fisher](assets/img/prof_pic.jpg)
 
 rochelle.fisher@gmail.com - 763 402 3823 - LinkedIn: www.linkedin.com/in/rochellef4techwriter
@@ -38,17 +39,22 @@ Personal mission statement: Quality technical writing is a symbiotic marriage be
 
 Passionate about clear, concise writing, leading to customer success and trust. Avid advocate of Controlled Language and taxonomy as tools to achieve said quality. See project to create a CL for cybersecurity.
 
-## EXPERIENCE 
+## EXPERIENCE
+
 ### Technical Writer | Diamond Mowers
+
 September 2023 – March 2025
 Precision-engineered tractor attachments for forestry and agricultural management
+
 - DITA XML - reduced PDF manual update by 150% with XML source to new PDF output.
 - ISO/ANSI - owned compliance with labels for improved Safety, reducing cost by 20%.
 - Improved content lifecycle for hardware documentation with automation and formal collaboration and review.
 
 ### Director of Knowledge and Technical Writing | SentinelOne
+
 May 2017 – June 2023
 Autonomous AI-powered cybersecurity for endpoint, cloud, and identity protection.
+
 - Managed global team of 12 tech writers to output 100% product documentation with Paligo CCMS for multiple output in numerous formats.
 - User guides, release notes, UX text, reference guides (MDR query language), installation guides.
 - Direct user communication through feedback email and selected customer advisories.
@@ -57,22 +63,27 @@ Autonomous AI-powered cybersecurity for endpoint, cloud, and identity protection
 - Coached UX team in probability implications of grammar, to improve GUI text.
 
 ### Technical Writing Team Leader | Check Point Software Technologies
-June 2007 – May 2017 
+
+June 2007 – May 2017
 Cybersecurity solutions for networks, clouds, endpoints, and mobile devices.
+
 - Managed 7 tech writers accountable for all product documentation including PDFs, Help, video tutorials.
 - Developed automation with AuthorIt scripts for innovative review cycles.
 - Instructed Support in cultural differences, to improve Japanese, German, and American user communication.
 - Initiated single-sourced PDF/Help with FrameMaker Webworks.
 
-### Technical Writing Team Leader | Aduva | 
-November 2000 – April 2005 
+### Technical Writing Team Leader | Aduva |
+
+November 2000 – April 2005
 Automated patch management tools for Linux and Solaris systems.
+
 - Created XML schemas to deliver higher quality HTML and PDF documents.
 - Co-authored an IBM Red Paper for the product's use in iSeries mainframes.
 - Created BASH scripts to automate recurring tasks, resulting in substantial time savings and higher quality.
 - In strategic partnership with BMC, produced documentation for Linux as guest host on iSeries mainframes, adhering to their writing style guide and standards.
- 
+
 ### PUBLICATIONS, PRESENTATIONS, AWARDS
+
 - Author, book (2020). Alchemy of Tomes: Managing Technical Writers and Documentation Projects.
 - Author, article (2019). The Evolution of Quality. Intercom: The Society of Technical Communication.
 - Author, chapter (2000). Thumbnails. Savage, G. J., & Sullivan, D. L. Writing a Professional Life: Stories of Technical Communicators On and Off the Job. Pearson.
@@ -82,11 +93,13 @@ Automated patch management tools for Linux and Solaris systems.
 - Society for Technical Communication Awards: Merit and Excellence at Aduva
 
 ### EDUCATION
+
 - State University of New York, Empire State College. Bachelor of Arts. Linguistics and Education.
 - Tel Aviv University School of Engineering. Computer Programming Course.
 - Yeda School of Technical Writing. Course.
 
 ### SKILLS
+
 Documentation and Project Management Tools: Modular authoring, Paligo CCMS, AuthorIt CCMS, XDocs CCMS, Jira, Git (docs-as-code), Swagger, FrameMaker, Microsoft 365/Office all applications, Google Workspace, TechSmith Camtasia and SnagIt, GIMP, Oxygen XML Editor, Version control systems, Flowchart tools, Graphic and video tools, Pendo, WalkMe
 
 Documentation Types: API, SDK, CLI, GUI (user guides), installation, internal KB, SOPs, release notes, white papers, screencast videos, parts books, use cases, taxonomy and vocabulary
@@ -107,7 +120,8 @@ Programming Languages (reading proficiency): Python, C++, JavaScript
 
 Technologies: AWS Cloud, Google Cloud, MDR, EDR, cybersecurity, IaC (Puppet, Kubernetes, Docker), quick research in any tech, AI content generation and textual compliance to standard, ML, SharePoint, query languages (SQL and similar), Data Analysis, script writing
 
-### LANGUAGES 
+### LANGUAGES
+
 English (native)
 
 Hebrew (conversational)
