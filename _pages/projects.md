@@ -1,12 +1,11 @@
 ---
 layout: page
-title: Creating a Controlled Language
+title: Projects
 permalink: /projects/
-description: Creating a proprietary controlled language, focusing on cybersecurity
+description: Creating a proprietary controlled language, focus on cybersecurity
 nav: true
 nav_order: 3
 display_categories: [work, fun]
-horizontal: false
 ---
 
 <!-- pages/projects.md -->

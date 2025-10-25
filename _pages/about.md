@@ -1,3 +1,14 @@
+---
+layout: about
+permalink: /about/
+title: About Rochelle Fisher
+nav: true
+nav_order: 1
+description: Rochelle Fisher
+toc:
+  sidebar: left
+---
+
 image: prof_pic.jpg
 image_circular: false # crops the image to make it circular
 [//]:# more_info: >
