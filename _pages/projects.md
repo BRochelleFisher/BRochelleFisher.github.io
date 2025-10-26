@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CL Project
+title: Project
 permalink: /projects/
 description: Creating a proprietary controlled language, focus on cybersecurity
 nav: true
