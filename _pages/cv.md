@@ -1,7 +1,7 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 5
 description: Rochelle Fisher Curriculum Vitae

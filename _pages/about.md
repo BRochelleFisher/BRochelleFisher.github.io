@@ -37,6 +37,6 @@ You won't see this in her resume, because it's been too long, but she is certifi
 ## Personal Mission Statement
 
 > "I believe quality technical writing is a symbiotic marriage between power and simplicity. Every line serves a purpose, every detail is indispensable, and the finished product is a perfect union of comprehensive instruction and concise communication."
-> -- [Rochelle Fisher](https://www.linkedin.com/pulse/20140826081211-491421-the-art-of-technical-writing/)
+> -- [The Art of Technical Writing](https://www.linkedin.com/pulse/20140826081211-491421-the-art-of-technical-writing/)
 
 Rochelle is passionate about clear, concise writing, leading to customer success and trust. She is an avid advocate of Controlled Language and taxonomy as tools to achieve said quality. Her **Project** to document how to create a CL showcases this passion and commitment.
