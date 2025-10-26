@@ -11,7 +11,8 @@ profile:
   more_info: >
     <p>+1 763 402 3823</p>
     <p>Remote (WFH)</p>
-	<p>Sioux Falls, SD, USA</p>
+    <p>Sioux Falls, SD, USA</p>
+
 social: true # includes social icons at the bottom of the page
 ---
 
@@ -19,7 +20,7 @@ B. Rochelle Fisher is an experienced, accomplished technical writer, manager, an
 
 ## Writer
 
-As a traditional technical writer, Rochelle was always ahead of the game. She does not wait to be spoon-fed by developers. She can read code and explain what it does and what the user must change to make it accomplish the goes.
+As a traditional technical writer, Rochelle was always ahead of the game. She does not wait to be spoon-fed by developers. She can read code and explain what it does and what the user must change to make it accomplish the goals.
 
 Rochelle has more than twenty years of technical writing experience, including API docs, user guides, admin guides, release notes, man pages, and Knowledge Base articles. She has proven her ability to develop and deliver high quality documentation and technical content translated to simple, relevant, task-based procedures.
 
@@ -31,7 +32,7 @@ Rochelle has fifteen years of management experience for multiple products, proje
 
 ## Trainer
 
-You won't see this in her resume, because it's been too long, but she is certified to teach high school English. Her degree is a double-major in Linguistics and Education. She is familiar with the USA DoD SCORM standard and can create training material structured for optimal learning. Rochelle has a couple years experience teaching high school EFL (English as a Foreign Language) in Israel, She has taught professional courses in technical writing.
+You won't see this in her resume, because it's been too long, but she is certified to teach high school English. Her degree is a double-major in Linguistics and Education. She is familiar with the USA DoD SCORM standard and can create training material structured for optimal learning. Rochelle has a couple years experience teaching high school EFL (English as a Foreign Language) in Israel. She has taught professional courses in technical writing.
 
 ## Personal Mission Statement
 
