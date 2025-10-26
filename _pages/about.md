@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Technical Writer, Knowledge Manager, Tech Writing Manager, Documentation Manager
 
@@ -10,8 +10,10 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>+1 763 402 3823</p>
+	
     <p>Remote (WFH)</p>
-    <p>Sioux Falls, SD, USA</p>
+    
+	<p>Sioux Falls, SD, USA</p>
 
 social: true # includes social icons at the bottom of the page
 ---
@@ -33,6 +35,8 @@ Rochelle has fifteen years of management experience for multiple products, proje
 ## Trainer
 
 You won't see this in her resume, because it's been too long, but she is certified to teach high school English. Her degree is a double-major in Linguistics and Education. She is familiar with the USA DoD SCORM standard and can create training material structured for optimal learning. Rochelle has a couple years experience teaching high school EFL (English as a Foreign Language) in Israel. She has taught professional courses in technical writing.
+
+This means that Rochelle can deliver your technical information as self-service learning.
 
 ## Personal Mission Statement
 
