@@ -652,8 +652,6 @@ This word is an excellent example. It is used in different parts of speech with 
 
      > Controlled versions:
 
-   > The storage you use can have an impact.
-
-   > your storage hardware and algorithm can impact Product
-
-   > storage hardware can impact Product
+     - The storage you use can have an impact.
+     - Your storage hardware and algorithm can impact Product.
+     - Storage hardware and configuration impacts Product.
