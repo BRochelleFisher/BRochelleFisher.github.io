@@ -34,11 +34,11 @@ These are the procedures in this project:
 
 4. Create the Dictionary file from the output of the scripts.
 
-This is the last step for a developer who will not work on the Dictionary. Up to this point, you do the steps one time. If you repeat a step, all work done so far on the Dictionary by technical writers or linguistic analysts will be lost.
+   This is the last step for a developer who will not work on the Dictionary. Up to this point, you do the steps one time. If you repeat a step, all work done so far on the Dictionary by technical writers or linguistic analysts will be lost.
 
-6. For each word, analyze usage for the one definition, one part of speech, allowed or not allowed, audience, and examples.
+5. For each word, analyze usage for the one definition, one part of speech, allowed or not allowed, audience, and examples.
 
-7. Create grammar and content rules. This project will start with ASD-STE 100 rules and then customize them.
+6. Create grammar and content rules. This project will start with ASD-STE 100 rules and then customize them.
 
 Out of scope: Test the content for CL conformance. Select an AI tool (we like writer.com) or create a Python script.
 
@@ -81,7 +81,7 @@ To create the dictionary, we start with the unique words used in the aggregated 
 
 4. Run the Python script:
 
-`python word_counter.py &gt; dictionary.csv`
+`python word_counter.py > dictionary.csv`
 
 ### word_counter.py
 
@@ -118,7 +118,7 @@ if __name__ == "__main__":
     analyze_document_frequency()
 ```
 
-&gt; Note on Code Source: This code started with the Python script in Alchemy of Tomes [Fisher (2020)], which does not work in the latest Python versions. We used Gemini (Google AI) to update this script.
+> Note on Code Source: This code started with the Python script in Alchemy of Tomes [Fisher (2020)], which does not work in the latest Python versions. We used Gemini (Google AI) to update this script.
 
 # Create the Dictionary File
 
@@ -132,8 +132,8 @@ With three small samples of cybersecurity documentation from different organizat
 
 1. Import the output file to a spreadsheet.
 
-- We will use Google Sheets. You can use Microsoft Excel or your choice of spreadsheet or database application.
-- Our Python script uses a pipe ( | ) as a delimiter between the word and its frequency of use. When you import the file, set the pipe as the delimiter.
+   - We will use Google Sheets. You can use Microsoft Excel or your choice of spreadsheet or database application.
+   - Our Python script uses a pipe ( `|` ) as a delimiter between the word and its frequency of use. When you import the file, set the pipe as the delimiter.
 
 2. Set the column headers.
 
@@ -167,7 +167,7 @@ This code gets definitions of the words in the dictionary from the Free Dictiona
 3. Replace the empty Definition column with the results.
 4. Format the cells to show the writer that these definitions must be reviewed. For example, make the background of the cell light red. The writer will change the color when they update the definition for cybersecurity.
 
-&gt; Note: if the word is not in the free dictionary, the definition is empty. This is acceptable for the first run-through. The technical writer will add the missing definition.
+> Note: if the word is not in the free dictionary, the definition is empty. This is acceptable for the first run-through. The technical writer will add the missing definition.
 
 ### getDefs.py
 
@@ -213,7 +213,7 @@ def get_definition_from_free_dictionary_api(word):
                     for d in definitions_list:
                         if d not in unique_defs:
                             unique_defs.append(d)
-                        if len(unique_defs) &gt;= 2:
+                        if len(unique_defs) >= 2:
                         # Get up to 2 concise definitions
                             break
                     return "; ".join(unique_defs)
@@ -314,7 +314,7 @@ if __name__ == "__main__":
         process_word_list_file(word_file_path)
 ```
 
-&gt; Script created by Gemini, Google AI. Tested in this project.
+> Script created by Gemini, Google AI. Tested in this project.
 
 ## Optional: Get Context
 
@@ -343,11 +343,11 @@ You can save the time of each lookup with a script that gets the context results
 
 3. Run the Python script:
 
-`python wordContext.py &gt; words.csv aggregate.txt Context.txt 5`
+`python wordContext.py > words.csv aggregate.txt Context.txt 5`
 
 Where
 
-- **wordContext.py** = this Python code
+- **wordContext.py** = this the Python script
 - **words.csv** = file created in step 1 that holds the words
 - **aggregate.txt** = aggregated text file of samples
 - **Context.txt** = output file to send to the technical writer
@@ -437,7 +437,7 @@ if __name__ == "__main__":
      (UWORDS_FILE, SAMPLE_AGG_FILE, OUTPUT_CONTEXT_FILE, CONTEXT_WORDS)
 ```
 
-&gt; Script created by Gemini, Google AI. Tested in this project.
+> Script created by Gemini, Google AI. Tested in this project.
 
 # Getting Started with Linguistic Analysis for the Dictionary
 
@@ -451,13 +451,13 @@ The first words that you set up in your dictionary will be the easiest and will 
 
 1. In the word with the highest count, set the Part of Speech (PoS).
 
-   &gt; Typical results for the most used words are the names of your organization or product. ASD-STE calls these technical names. Set the PoS of the technical names in the top results as **Name**. This lets you filter for proper nouns, which change more often than regular nouns. For example, the company name will change if your organization delivers a white label product.
+   > Typical results for the most used words are the names of your organization or product. ASD-STE calls these technical names. Set the PoS of the technical names in the top results as **Name**. This lets you filter for proper nouns, which change more often than regular nouns. For example, the company name will change if your organization delivers a white label product.
 
 2. Enter the PoS for the other most common words, such as `the that this from`. When you get to a word that may be used in multiple parts of speech and is not a common word for all English content, skip it for now.
 
 3. In the **Allowed** column, enter `T` (for true) or `F` (for false).
 
-   &gt; Most of these first words will be allowed.
+   > Most of these first words will be allowed.
 
 4. In the **Audience** column, enter all or select a persona from the list, if you are sure this word will be allowed only for this persona.
 
@@ -502,7 +502,7 @@ We have words that are industry standard for software technical writing: \__intr
 
   e. In ALT1 for _organisation_ and _organisations_, enter _organization_ and _organizations_.
 
-&gt; When we sorted by Word to see all the issues of _organi\*_, we saw _organizational_, with a COUNT of `1`. Why not add _organizational_ on the fly? Answer: It is used only one time. We will analyze the text and find a more common rewrite in that one sentence. Or maybe that one instance is for _Organizational Unit (OU)_ in Active Directory. If so, we will make that phrase a "word".
+> When we sorted by Word to see all the issues of _organi\*_, we saw _organizational_, with a COUNT of `1`. Why not add _organizational_ on the fly? Answer: It is used only one time. We will analyze the text and find a more common rewrite in that one sentence. Or maybe that one instance is for _Organizational Unit (OU)_ in Active Directory. If so, we will make that phrase a "word".
 
 **NEXT**: When you are done with the most used words that you want to complete now (best practice: stop after an hour), sort the range by Count. We will analyze the words that are most likely to be NOT allowed: words used only one time. After that, go through the words in the order that best works for you.
 
@@ -545,9 +545,12 @@ Let's start with _organizational_.
 1. Open the file with all your textual content. (We named this file `sampleAgg.txt`.)
 2. Search for _organizational_.  
    We found this sentence (owned by one of the organizations from which we used samples):
-   &gt; Quote: Produce intelligence that will be embedded into organizational workflows and would serve decision-makers.
+
+   > Quote: Produce intelligence that will be embedded into organizational workflows and would serve decision-makers.
+
 3. Analyzing the use of _organizational_, we see ambiguity. Does the author mean that the workflows are organized? That they are for the organization? That there are different workflows for different groups in the hierarchy? If we remove the word, it does not change the meaning, as far as we can see. We decide that this word is not allowed. If we had access to the SME, we would discuss their meaning and find alternatives.
-   &gt; Suggestion: You have access to your SMEs. Set your CL words as best as you can. Then, discuss multiple words with similar issues. Edit your CL for alternative words and other decisions.
+
+   > Suggestion: You have access to your SMEs. Set your CL words as best as you can. Then, discuss multiple words with similar issues. Edit your CL for alternative words and other decisions.
 
 The next task is to analyze the top words that are not obviously allowed or not allowed. Sort the dictionary by Count. Our next word to work through is _event_.
 
@@ -569,7 +572,7 @@ The next task is to analyze the top words that are not obviously allowed or not 
 7. For the words that start with _event_ and are obviously commands or pathnames, set the PoS to `command` and Allowed to `T`.
 8. Add a row for the NOT allowed phrase `in the event` and make sure _if_ is allowed.
 
-&gt; In this table, we don't show Audience (`all` for each row) or Allowed? (`T` for each row)
+> In this table, we don't show Audience (`all` for each row) or Allowed? (`T` for each row)
 
 **Dictionary Rows for _event_**
 
@@ -629,24 +632,24 @@ This word is an excellent example. It is used in different parts of speech with 
 
    - Given the text:
 
-     &gt; Quote: supports various relationship types, and their usage depends on the entity types being linked
+     > Quote: supports various relationship types, and their usage depends on the entity types being linked
 
      This one sentence uses _type_ with two definitions. The first can be removed. The second fits the allowed definition.
 
-     &gt; Controlled version: supports various relationships, and their usage requires linked entity types
+     > Controlled version: supports various relationships, and their usage requires linked entity types
 
    - Given the text:
 
-     &gt; Quote: there are two types of admins: Org Admins and Site Admins
+     > Quote: there are two types of admins: Org Admins and Site Admins
 
      The use of _type_ is not required. If the SME does not like _level_, we can change it to a different word (_set_, _permissions_). Also note that we remove _two_. It is always best to not enumerate features, to make sure you do not create a conflict in the text when a new feature is added.
 
-     &gt; Controlled version: there are different admin levels: Org Admins and Site Admins
+     > Controlled version: there are different admin levels: Org Admins and Site Admins
 
    - Given the text:
 
-     &gt; Quote: the type of storage used by Product can have an impact
+     > Quote: the type of storage used by Product can have an impact
 
      The full text discussed SSD devices and feed caching technology. We guess that "type" meant hardware and configuration.
 
-     &gt; Controlled version: The storage you use can have an impact.`OR`your storage hardware and algorithm can impact Product`OR`storage hardware can impact Product
+     > Controlled version: The storage you use can have an impact.`OR`your storage hardware and algorithm can impact Product`OR`storage hardware can impact Product
