@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: No
+permalink: /no/
 description: Creating a proprietary controlled language, focus on cybersecurity
-nav: true
-nav_order: 3
+nav: false
+nav_order: 99
 display_categories: [work, fun]
 ---
 
