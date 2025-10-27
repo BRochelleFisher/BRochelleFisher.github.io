@@ -137,11 +137,11 @@ With three small samples of cybersecurity documentation from different organizat
 
 2. Set the column headers.
 
-- If you know that you will use a specific AI-driven tool, such as writer.com or jasper.ai, change the dictionary headers and values to work with the acquired tool.
+   - If you know that you will use a specific AI-driven tool, such as writer.com or jasper.ai, change the dictionary headers and values to work with the acquired tool.
 
-- If you do not have a checker tool yet, change row 1 to these headers: Word, Count, Part of Speech, Definition, Good Example, Bad Example, Allowed?, Audience, Alt1, Alt2.
+   - If you do not have a checker tool yet, change row 1 to these headers: Word, Count, Part of Speech, Definition, Good Example, Bad Example, Allowed?, Audience, Alt1, Alt2.
 
-- If there are rows between the header row and the first word, delete them.
+   - If there are rows between the header row and the first word, delete them.
 
 3. In a separate tab, enter your audience personas in one column. Make sure `all` is in this list.
 
@@ -352,8 +352,6 @@ Where
 - **aggregate.txt** = aggregated text file of samples
 - **Context.txt** = output file to send to the technical writer
 - **5** = number of words before and after the word in focus
-
-4. Send the output file to the technical writer.
 
 ### wordContext.py
 
@@ -652,4 +650,10 @@ This word is an excellent example. It is used in different parts of speech with 
 
      The full text discussed SSD devices and feed caching technology. We guess that "type" meant hardware and configuration.
 
-     > Controlled version: The storage you use can have an impact.`OR`your storage hardware and algorithm can impact Product`OR`storage hardware can impact Product
+     > Controlled versions:
+
+   > The storage you use can have an impact.
+
+   > your storage hardware and algorithm can impact Product
+
+   > storage hardware can impact Product
