@@ -10,13 +10,13 @@ toc:
 
 **Background**
 
-\_I have a [personal project](https://github.com/BRochelleFisher/TWPortfolio/tree/main) to create and document how to make and maintain a proprietary controlled language. The in-progress dictionary is on [Google Drive](https://docs.google.com/spreadsheets/d/1Eqor-ys3PWhETH9ADSZiHAlgTcjmNn_oOX17rGmNh_o/edit?gid=29324754#gid=29324754)
+I have a [personal project](https://github.com/BRochelleFisher/TWPortfolio/tree/main) to create and document how to make and maintain a proprietary controlled language. The in-progress dictionary is on [Google Drive](https://docs.google.com/spreadsheets/d/1Eqor-ys3PWhETH9ADSZiHAlgTcjmNn_oOX17rGmNh_o/edit?gid=29324754#gid=29324754).
 
-This sample is the guide for Python developers or technical writers with the ability and resources to run Python scripts.\_
+This sample is the guide for Python developers or technical writers with the ability and resources to run Python scripts.
 
 ---
 
-# Introduction to Controlled Languages
+# Creating a Proprietary Controlled Language
 
 A Controlled Language (CL) is a set of rules for grammar, sentence length, and vocabulary. The rules define words and grammar as allowed or not allowed. This enforces consistency on all your documentation and conforms to, or builds, an industry standard for your products.
 
@@ -36,17 +36,17 @@ If you use part, parts, or all of this project for personal use, for profit, or 
 
 These are the procedures in this project:
 
-1. Collect samples and aggregate the textual content into one text file. You will create a CL from your documentation. This project creates a CL for cybersecurity from online, GPL, or unlicensed content.
+1. [Collect samples](#collecting-samples) and aggregate the textual content into one text file. You will create a CL from your documentation. This project creates a CL for cybersecurity from online, GPL, or unlicensed content.
 
-2. Get a CSV file of each word and its frequency of use: run a Python script on the text file.
+2. [Get a CSV file of each word and its frequency of use](#creating-csv-file-of-words-and-frequency): run a Python script on the text file.
 
-3. Optional: Run Python scripts to get default definitions and word context.
+3. Optional: Run Python scripts to get [default definitions](#optional:-add-default-definitions) and [word context](#optional:-get-context).
 
-4. Create the Dictionary file from the output of the scripts.
+4. [Create the Dictionary file from the output of the scripts](#create-the-dictionary-file).
 
    This is the last step for a developer who will not work on the Dictionary. Up to this point, you do the steps one time. If you repeat a step, all work done so far on the Dictionary by technical writers or linguistic analysts will be lost.
 
-5. For each word, analyze usage for the one definition, one part of speech, allowed or not allowed, audience, and examples.
+5. [For each word, analyze usage for the one definition, one part of speech, allowed or not allowed, audience, and examples](#getting-started-with-linguistic-analysis-for-the-dictionary).
 
 6. Create grammar and content rules. This project will start with ASD-STE 100 rules and then customize them.
 
