@@ -8,9 +8,11 @@ toc:
   sidebar: left
 ---
 
-**Sample Background**
+**Background**
 
-_I have a personal project to create and document how to make and maintain a proprietary controlled language. This sample is the guide for Python developers or technical writers with the ability and resources to run Python scripts._
+\_I have a [personal project](https://github.com/BRochelleFisher/TWPortfolio/tree/main) to create and document how to make and maintain a proprietary controlled language. The in-progress dictionary is on [Google Drive](https://docs.google.com/spreadsheets/d/1Eqor-ys3PWhETH9ADSZiHAlgTcjmNn_oOX17rGmNh_o/edit?gid=29324754#gid=29324754)
+
+This sample is the guide for Python developers or technical writers with the ability and resources to run Python scripts.\_
 
 ---
 
