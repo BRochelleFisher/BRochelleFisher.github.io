@@ -4,11 +4,15 @@ title: CL Project - Tech Docs
 permalink: /samples/cl-tech/
 description: Controlled Language Project - Technical Documentation
 nav: false
+toc:
+  sidebar: left
 ---
 
-# Sample background
+**Sample Background**
 
-I have a personal project to create and document how to make and maintain a proprietary controlled language. This sample is the guide for Python developers or technical writers with the ability and resources to run Python scripts.
+_I have a personal project to create and document how to make and maintain a proprietary controlled language. This sample is the guide for Python developers or technical writers with the ability and resources to run Python scripts._
+
+---
 
 # Introduction to Controlled Languages
 
