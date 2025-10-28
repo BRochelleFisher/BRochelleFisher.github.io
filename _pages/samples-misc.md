@@ -6,4 +6,4 @@ description: Miscellaneous Writing Samples
 nav: false
 ---
 
-Your content here...
+Coming soon!
