@@ -40,7 +40,7 @@ These are the procedures in this project:
 
 2. [Get a CSV file of each word and its frequency of use](#creating-csv-file-of-words-and-frequency): run a Python script on the text file.
 
-3. Optional: Run Python scripts to get [default definitions](#optional:-add-default-definitions) and [word context](#optional:-get-context).
+3. Optional: Run Python scripts to get [default definitions](#optional-add-default-definitions) and [word context](#optional-get-context).
 
 4. [Create the Dictionary file from the output of the scripts](#create-the-dictionary-file).
 
