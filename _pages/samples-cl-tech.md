@@ -6,6 +6,10 @@ description: Controlled Language Project - Technical Documentation
 nav: false
 ---
 
+# Sample background
+
+I have a personal project to create and document how to make and maintain a proprietary controlled language. This sample is the guide for Python developers or technical writers with the ability and resources to run Python scripts.
+
 # Introduction to Controlled Languages
 
 A Controlled Language (CL) is a set of rules for grammar, sentence length, and vocabulary. The rules define words and grammar as allowed or not allowed. This enforces consistency on all your documentation and conforms to, or builds, an industry standard for your products.

@@ -67,5 +67,5 @@ I'm prepared to take on senior leadership roles where I can drive knowledge visi
 ---
 
 ### Core Competencies
-Strategic Planning | Knowledge Management Systems | Team Leadership | Change Management | Process Optimization | Data Analytics | AI & Automation | Content Strategy | Information Architecture | Cross-Functional Collaboration | Diversity & Inclusion | Continuous Improvement
 
+Strategic Planning | Knowledge Management Systems | Team Leadership | Change Management | Process Optimization | Data Analytics | AI & Automation | Content Strategy | Information Architecture | Cross-Functional Collaboration | Diversity & Inclusion | Continuous Improvement
