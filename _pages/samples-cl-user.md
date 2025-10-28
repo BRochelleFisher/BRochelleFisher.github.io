@@ -14,6 +14,8 @@ I have a [personal project](https://github.com/BRochelleFisher/TWPortfolio/tree/
 
 This sample is the guide for technical writers or linguists who get the Dictionary from developers (see the technical sample for the Developer Guide).
 
+---
+
 # Simplifying Cybersecurity Documentation with a Proprietary Controlled Language
 
 ### Abstract
@@ -119,7 +121,7 @@ In our style guide, we set a rule that we do not use minimalist rules. If `that`
 | `from` | 501   | preposition | blank                          | T        | all      |
 | `your` | 376   | pronoun     | blank                          | T        | all      |
 
-Note: We defined `will` to differentiate from its other definitions.
+Note: We set an allowed definition for `will` to differentiate from its other definitions.
 
 We have words that are industry standard for software technical writing: `introduction user data attributes attribute example organisation`.
 
@@ -169,13 +171,13 @@ You will analyze how your dictionary words are used in your sample.
 
 4. See if the draft definition works in a large random sample, or in all uses. If you decide to make the word not allowed, see if the chosen alternate word or syntax works.
 
-   **Best Practice:** When you write a definition, do not use the word in it. This will help you find words used as synonyms, which is not what we want. In a CL, not only does each word have one definition, but each definition is represented by one word.
+   **Best Practice:** When you write a definition, do not use the word in it. This will help you find words used as synonyms to replace with the allowed word. In a CL, each word has one definition, and each definition is represented by one word.
 
    **Example** Your documentation uses the past participles (past tense verb that functions as an adjective) `protected` and `secured` to mean the same thing. When you define them, the definition is _endpoint on which Product services run or network on which Product services run on all endpoints_. You decide that works for `protected`, but when you get to `secured`, you change the definition to be: _endpoint on which remediation ran to solve security vulnerability or exploit_. With these specific definitions, you can use both words, each with more meaning for the user.
 
-   You may find that two or more words are used for the same definition and PoS, and you can restrict your dictionary to only one. This will make it easier for users to read and to follow the instructions.
+   If you find that two or more words are used for the same definition and PoS, you must restrict your dictionary to only one. This will make it easier for users to read and to follow the instructions.
 
-   For example, if you use `configure` to mean `enter`, you could confuse your users when the docs say, _configure the IP address_. What is there to configure? Is it not enough to simply enter the IP address? Can you remove `configure` and use `create`, `enter`, and other more specific words for the action?
+   **Example** You use `configure` to mean `enter` in a step like this: _Configure the IP address_. What is there to configure? Is it not enough to simply enter the IP address? Can you remove `configure` from your dictionary and use `set`, `enter`, and other more specific words for the action?
 
 5. Update the rules, definition, and PoS. Enter good and bad examples.
 
@@ -274,36 +276,40 @@ This word is an excellent example. It is used in different parts of speech with 
    We found that it was most often used as a noun or technical name, but there were sentences with it used as a verb.
 
    > type yes when (verb)
+
    > Set the IPv4 Configuration Type to Static IPv4 (name)
+
    > corresponds to the desired type of instance (noun)
 
 3. Add a row for type as a verb and set it to not allowed.
 
-**Dictionary Rows for type as a verb**
+   **Dictionary Rows for type as a verb**
 
-| Word   | Count | Definition                                          | PoS  | Good Example | Bad Example | Allowed? | Audience | Rule                 | ALT1  |
-| ------ | ----- | --------------------------------------------------- | ---- | ------------ | ----------- | -------- | -------- | -------------------- | ----- |
-| `type` | added | 1) to categorize; 2) to enter input with a keyboard | verb | enter yes    | type yes    | F        | all      | Do not use as a verb | ENTER |
+   | Word   | Count | Definition                    | PoS  | Good Example | Bad Example | Allowed? | Audience | Rule               | ALT1  |
+   | ------ | ----- | ----------------------------- | ---- | ------------ | ----------- | -------- | -------- | ------------------ | ----- |
+   | `type` | added | 1) to categorize; 2) to input | verb | enter yes    | type yes    | F        | all      | Do not use as verb | ENTER |
 
 4. Make sure `enter` is allowed.
 
-**Table 4. Dictionary Rows for enter**
+   **Dictionary Rows for enter**
 
-| Word  | Count | Definition      | PoS  | Good Example | Bad Example | Allowed? | Audience |
-| ----- | ----- | --------------- | ---- | ------------ | ----------- | -------- | -------- |
-| enter | added | to input values | verb | enter yes    |             | T        | all      |
+   | Word  | Count | Definition      | PoS  | Good Example | Bad Example | Allowed? | Audience |
+   | ----- | ----- | --------------- | ---- | ------------ | ----------- | -------- | -------- |
+   | enter | added | to input values | verb | enter yes    |             | T        | all      |
 
-5. We see that there many uses of `type` in the GUI and CLI. We could try to make it a technical name for user interface (UX) creators. The word `type` would be allowed in micro-copy and coding but not in technical writing. We would add a row for the UX persona in audience that would be **Allowed** for `type` as a `Name`. We would add another row for the other audiences that makes use of `type` as a noun not allowed.
+5. We see that there many uses of `type` in the GUI and CLI.
+   We could try to make it a technical name for user interface (UX) creators. The word `type` would be allowed in micro-copy and coding but not in technical writing. We would add a row for the UX persona in audience that would be **Allowed** for `type` as a `Name`. We would add another row for the other audiences that makes use of `type` as a noun not allowed.
 
    But we see in the results that `type` is used in text that cannot easily be rewritten. We must allow it for everyone, but only with the required definition, as an object in the product.
 
-**Table 5. Dictionary Rows for type as a noun**
+   **Dictionary Rows for type as a noun**
 
-| Word | Count | Definition                                           | PoS  | Good Example                                   | Bad Example                               | Allowed? | Audience | Rule                                                                         |
-| ---- | ----- | ---------------------------------------------------- | ---- | ---------------------------------------------- | ----------------------------------------- | -------- | -------- | ---------------------------------------------------------------------------- |
-| type | added | product group of objects with common characteristics | Name | some attribute types require associated events | some types of attributes are more complex | T        | all      | Do not use as general "kind"; use only as a category specific to the product |
+   | Word | Count | Definition                                           | PoS  | Good Example                                   | Bad Example                               | Allowed? | Audience | Rule                                                                         |
+   | ---- | ----- | ---------------------------------------------------- | ---- | ---------------------------------------------- | ----------------------------------------- | -------- | -------- | ---------------------------------------------------------------------------- |
+   | type | added | product group of objects with common characteristics | Name | some attribute types require associated events | some types of attributes are more complex | T        | all      | Do not use as general "kind"; use only as a category specific to the product |
 
-6. Make sure the style guide rule that all text on the interface (GUI, API, or CLI) must be wrapped in an element, such as `<code>`, `<codeblock>`, `<guilabel>`. We can then set the checker tool to ignore text in these elements. If your checker tool shows the rules, it will not show this rule for interface labels, where it would cause user fatigue and be ignored when it is necessary.
+6. Make sure the style guide rule that all text on the interface (GUI, API, or CLI) must be wrapped in an element, such as `<code>`, `<codeblock>`, `<guilabel>`.
+   We can then set the checker tool to ignore text in these elements. If your checker tool shows the rules, it will not show this rule for interface labels, where it would cause user fatigue and be ignored when it is necessary.
 
 7. We look through the uses of `type` to mean a general group of people or things having common characteristics. We can rewrite those.
 
