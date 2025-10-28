@@ -46,7 +46,7 @@ These are the procedures in this project:
 
    This is the last step for a developer who will not work on the Dictionary. Up to this point, you do the steps one time. If you repeat a step, all work done so far on the Dictionary by technical writers or linguistic analysts will be lost.
 
-5. [For each word, analyze usage for the one definition, one part of speech, allowed or not allowed, audience, and examples](#getting-started-with-linguistic-analysis-for-the-dictionary).
+5. For each word, [analyze usage](#getting-started-with-linguistic-analysis-for-the-dictionary) for the one definition, one part of speech, allowed or not allowed, audience, and examples.
 
 6. Create grammar and content rules. This project will start with ASD-STE 100 rules and then customize them.
 

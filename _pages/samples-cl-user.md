@@ -4,11 +4,15 @@ title: CL Project - User Docs
 permalink: /samples/cl-user/
 description: Controlled Language Project - User Documentation
 nav: false
+toc:
+  sidebar: left
 ---
 
-# Sample background
+**Background**
 
-I have a personal project to create and document how to make and maintain a proprietary controlled language. This sample is the guide for technical writers or linguists who get the Dictionary from developers (see the technical sample for the Developer Guide).
+I have a [personal project](https://github.com/BRochelleFisher/TWPortfolio/tree/main) to create and document how to make and maintain a proprietary controlled language. The in-progress dictionary is on [Google Drive](https://docs.google.com/spreadsheets/d/1Eqor-ys3PWhETH9ADSZiHAlgTcjmNn_oOX17rGmNh_o/edit?gid=29324754#gid=29324754).
+
+This sample is the guide for technical writers or linguists who get the Dictionary from developers (see the technical sample for the Developer Guide).
 
 # Simplifying Cybersecurity Documentation with a Proprietary Controlled Language
 
