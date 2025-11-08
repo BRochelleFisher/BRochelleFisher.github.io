@@ -52,15 +52,23 @@ Cybersecurity solutions for networks, clouds, endpoints, and mobile devices.
 - Instructed Support in cultural differences, to improve Japanese, German, and American user communication.
 - Initiated single-sourced PDF/Help with FrameMaker Webworks.
 
+### Technical Writer | SimiGon |
+
+May 2006 - May 2007
+Mission rehearsal software and eTraining
+Sole technical writer responsible for eTraining solutions on SCORM for military and commercial flight and ground vehicle simulators.
+
 ### Technical Writing Team Leader | Aduva |
 
-November 2000 – April 2005
-Automated patch management tools for Linux and Solaris systems.
+November 2000 – April 2006
+Automated patch management tools for Linux and Solaris systems. (Acquired by Sun Microsystems)
+
+Led the team of technical writers until cutbacks and then worked as sole writer. Created XML schema and wrote in vi on RHEL to deliver HTML and PDFs. 
 
 - Created XML schemas to deliver higher quality HTML and PDF documents.
 - Co-authored an IBM Red Paper for the product's use in iSeries mainframes.
 - Created BASH scripts to automate recurring tasks, resulting in substantial time savings and higher quality.
-- In strategic partnership with BMC, produced documentation for Linux as guest host on iSeries mainframes, adhering to their writing style guide and standards.
+- In a strategic partnership with BMC, produced documentation on Adobe Framemaker for Linux as guest host on iSeries mainframes, adhering to their writing style guide and standards.
 
 ### PUBLICATIONS, PRESENTATIONS, AWARDS
 
