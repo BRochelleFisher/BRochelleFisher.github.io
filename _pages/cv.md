@@ -63,7 +63,7 @@ Sole technical writer responsible for eTraining solutions on SCORM for military 
 November 2000 – April 2006
 Automated patch management tools for Linux and Solaris systems. (Acquired by Sun Microsystems)
 
-Led the team of technical writers until cutbacks and then worked as sole writer. Created XML schema and wrote in vi on RHEL to deliver HTML and PDFs. 
+Led the team of technical writers until cutbacks and then worked as sole writer. Created XML schema and wrote in vi on RHEL to deliver HTML and PDFs.
 
 - Created XML schemas to deliver higher quality HTML and PDF documents.
 - Co-authored an IBM Red Paper for the product's use in iSeries mainframes.
