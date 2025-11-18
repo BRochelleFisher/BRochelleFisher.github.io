@@ -21,9 +21,17 @@ Passionate about clear, concise writing, leading to customer success and trust. 
 
 ## EXPERIENCE
 
+### Technical Writer | Cyclops
+September 2025 - November 2025
+
+AI Data Lake That Reveals Your Exposures
+
+In Markdown with GitHub, documented integration guide pages. Contract, 20 hrs/mo.
+
 ### Technical Writer | Diamond Mowers
 
 September 2023 – March 2025
+
 Precision-engineered tractor attachments for forestry and agricultural management
 
 - DITA XML - reduced PDF manual update by 150% with XML source to new PDF output.
@@ -33,6 +41,7 @@ Precision-engineered tractor attachments for forestry and agricultural managemen
 ### Director of Knowledge and Technical Writing | SentinelOne
 
 May 2017 – June 2023
+
 Autonomous AI-powered cybersecurity for endpoint, cloud, and identity protection.
 
 - Managed global team of 12 tech writers to output 100% product documentation with Paligo CCMS for multiple output in numerous formats.
@@ -45,6 +54,7 @@ Autonomous AI-powered cybersecurity for endpoint, cloud, and identity protection
 ### Technical Writing Team Leader | Check Point Software Technologies
 
 June 2007 – May 2017
+
 Cybersecurity solutions for networks, clouds, endpoints, and mobile devices.
 
 - Managed 7 tech writers accountable for all product documentation including PDFs, Help, video tutorials.
@@ -55,12 +65,14 @@ Cybersecurity solutions for networks, clouds, endpoints, and mobile devices.
 ### Technical Writer | SimiGon |
 
 May 2006 - May 2007
+
 Mission rehearsal software and eTraining
 Sole technical writer responsible for eTraining solutions on SCORM for military and commercial flight and ground vehicle simulators.
 
 ### Technical Writing Team Leader | Aduva |
 
 November 2000 – April 2006
+
 Automated patch management tools for Linux and Solaris systems. (Acquired by Sun Microsystems)
 
 Led the team of technical writers until cutbacks and then worked as sole writer. Created XML schema and wrote in vi on RHEL to deliver HTML and PDFs.
