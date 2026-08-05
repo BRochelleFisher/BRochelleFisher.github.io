@@ -67,12 +67,12 @@ Cybersecurity solutions for networks, clouds, endpoints, and mobile devices.
 - Instructed Support in cultural differences, to improve Japanese, German, and American user communication.
 - Initiated single-sourced PDF/Help with FrameMaker Webworks.
 
-EARLIER EXPERIENCE
+### EARLIER EXPERIENCE
 
-Technical Writing Team Leader | Aduva | Nov 2000 – Apr 2006
+#### Technical Writing Team Leader | Aduva | Nov 2000 – Apr 2006
 Automated patch-management tools for Linux/Solaris (acquired by Sun Microsystems). Led a team, then worked solo after cutbacks; created XML schemas for HTML/PDF delivery; co-authored IBM Red Paper for iSeries mainframe use.
 
-Technical Writer | SimiGon | May 2006 – May 2007
+#### Technical Writer | SimiGon | May 2006 – May 2007
 Sole technical writer for eTraining solutions on SCORM, for military and commercial flight/ground vehicle simulators.
 
 ### PUBLICATIONS, PRESENTATIONS, AWARDS
@@ -111,12 +111,4 @@ Standards: ISO/ANSI, GRC (Governance, Risk, and Compliance), FedRAMP, ASD-STE 10
 
 Programming Languages (reading proficiency): Python, C++, JavaScript
 
-Technologies: AWS Cloud, Google Cloud, MDR, EDR, cybersecurity, IaC (Puppet, Kubernetes, Docker), quick research in any tech, AI content generation and textual compliance to standard, ML, SharePoint, query languages (SQL and similar), Data Analysis, script writing
-
-### LANGUAGES
-
-English (native)
-
-Hebrew (conversational)
-
-Spanish (basic)
+Technologies: AWS Cloud, Google Cloud, MDR, EDR, cybersecurity, IaC (Puppet, Kubernetes, Docker), quick research in any tech, AI content generation and textual compliance to standard, RAG and LLM workflows (Open WebUI), ML, SharePoint, query languages (SQL and similar), Data Analysis, script writing
