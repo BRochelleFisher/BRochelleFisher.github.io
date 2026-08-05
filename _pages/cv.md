@@ -21,12 +21,17 @@ Passionate about clear, concise writing, leading to customer success and trust. 
 
 ## EXPERIENCE
 
-### Technical Writer | Cyclops
-September 2025 - November 2025
+### Technical Writer | BlueVoyant
+December 2025 – current
 
-AI Data Lake That Reveals Your Exposures
+Cybersecurity software and services
 
-In Markdown with GitHub, documented integration guide pages. Contract, 20 hrs/mo.
+Own documentation standards, CCMS strategy, and style governance for cybersecurity product content, partnering directly with engineering and support stakeholders.
+
+- XML source-to-PDF workflow - reduced documentation update time by 90%.
+- Built RiFCLiB - AI-assisted controlled-language tool flagging word-level compliance in real time; daily use since launch, earned spot bonus within two months.
+- RAG/LLM workflow via Open WebUI on a filtered GitHub knowledge base; applied RiFCLiB for compliant, publication-ready AI-agent documentation.
+- Automation and AI tooling - saved ~$50,000 in contractor costs, cut turnaround from months to hours.
 
 ### Technical Writer | Diamond Mowers
 
@@ -62,25 +67,13 @@ Cybersecurity solutions for networks, clouds, endpoints, and mobile devices.
 - Instructed Support in cultural differences, to improve Japanese, German, and American user communication.
 - Initiated single-sourced PDF/Help with FrameMaker Webworks.
 
-### Technical Writer | SimiGon |
+EARLIER EXPERIENCE
 
-May 2006 - May 2007
+Technical Writing Team Leader | Aduva | Nov 2000 – Apr 2006
+Automated patch-management tools for Linux/Solaris (acquired by Sun Microsystems). Led a team, then worked solo after cutbacks; created XML schemas for HTML/PDF delivery; co-authored IBM Red Paper for iSeries mainframe use.
 
-Mission rehearsal software and eTraining
-Sole technical writer responsible for eTraining solutions on SCORM for military and commercial flight and ground vehicle simulators.
-
-### Technical Writing Team Leader | Aduva |
-
-November 2000 – April 2006
-
-Automated patch management tools for Linux and Solaris systems. (Acquired by Sun Microsystems)
-
-Led the team of technical writers until cutbacks and then worked as sole writer. Created XML schema and wrote in vi on RHEL to deliver HTML and PDFs.
-
-- Created XML schemas to deliver higher quality HTML and PDF documents.
-- Co-authored an IBM Red Paper for the product's use in iSeries mainframes.
-- Created BASH scripts to automate recurring tasks, resulting in substantial time savings and higher quality.
-- In a strategic partnership with BMC, produced documentation on Adobe Framemaker for Linux as guest host on iSeries mainframes, adhering to their writing style guide and standards.
+Technical Writer | SimiGon | May 2006 – May 2007
+Sole technical writer for eTraining solutions on SCORM, for military and commercial flight/ground vehicle simulators.
 
 ### PUBLICATIONS, PRESENTATIONS, AWARDS
 
